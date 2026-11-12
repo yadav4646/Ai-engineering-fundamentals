@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+// Shared system prompt used by both the agent (worker side) and the eval
+// harness (node side). Keeping it in its own file means the eval doesn't have
+// to import the agent class and pull in Cloudflare-specific dependencies.
+
+>>>>>>> lesson-5
 export const SYSTEM_PROMPT = `You are a diagram design assistant. You help users create and modify diagrams on an Excalidraw canvas.
 
 When the user asks you to create a diagram, use the generateDiagram tool to produce Excalidraw elements.
