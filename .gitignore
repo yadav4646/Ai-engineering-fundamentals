@@ -6,8 +6,10 @@ dist
 openspec
 .claude
 notes
-lessons/.vitepress/cache
-notes
 evals/results
+<<<<<<< HEAD
+=======
+lessons/.vitepress/cache
+>>>>>>> lesson-6
 
 CLAUDE.md
